@@ -422,3 +422,34 @@ footer {
 .revision-policy li {
   margin-bottom: 8px;
 }
+
+
+/* MOBILE WEBSITE ADJUSTMENTS */
+@media (max-width: 600px) {
+
+  header {
+    padding: 20px 18px;
+  }
+
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .hero h1 {
+    font-size: 42px;
+    line-height: 1.15;
+  }
+
+  .hero p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+  .hero {
+    padding: 65px 20px;
+  }
+
+}
+
